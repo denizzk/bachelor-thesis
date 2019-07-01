@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="3"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical"-->
+        <!--android:weightSum="7">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="3"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="5">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/buttonConnect"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="4"-->
+                <!--android:text="CONNECT" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="3"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="5">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/buttonClear"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="4"-->
+                <!--android:text="CLEAR" />-->
+
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="2"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="5">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/buttonRun"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="4"-->
+                <!--android:text="RUN" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="2"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="5">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/buttonStop"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="4"-->
+                <!--android:text="STOP" />-->
+
+        <!--</LinearLayout>-->
+
+    <FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/bottom_navigation"/>
+
+
+        <com.dkarakaya.jobsafety.CurvedBottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            app:itemIconSize="35sp"
+            app:itemIconTint="@color/bottom_navigation"
+            app:itemTextColor="@color/bottom_navigation"
+            app:menu="@menu/bottom_navigation" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:clickable="true"
+            android:longClickable="false"
+            android:src="@drawable/icon_home"
+            app:fabCustomSize="70dp"
+            app:rippleColor="@color/secondaryTextcolor" />
+
+</RelativeLayout>

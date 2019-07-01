@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextAppearance</item>
+        <item name="android:textColorPrimary">@color/secondaryTextcolor</item>
+        <item name="android:actionMenuTextColor">@color/secondaryTextcolor</item>
+    </style>
+
+    <style name = "NoActionBar" parent = "Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="myCustomMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/secondaryTextcolor</item>
+    </style>
+    
+    <style name="LargeText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/secondaryTextcolor</item>
+    </style>
+    <style name="MediumText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/secondaryTextcolor</item>
+    </style>
+    <style name="SmallText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/secondaryTextcolor</item>
+    </style>
+
+    <style name="LargeDarkText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/darkTextColor</item>
+    </style>
+    <style name="MediumDarkText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/darkTextColor</item>
+    </style>
+    <style name="SmallDarkText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/darkTextColor</item>
+    </style>
+    
+
+</resources>

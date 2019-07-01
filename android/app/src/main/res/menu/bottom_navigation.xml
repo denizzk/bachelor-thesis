@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_preview"
+        android:icon="@drawable/ic_linked_camera_icon"
+        android:title="Preview"
+        android:checked="false"/>
+
+    <item
+        android:id="@+id/nav_home"
+        android:title=""
+        android:checkable="false"
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/nav_train"
+        android:icon="@drawable/ic_train"
+        android:title="Train"
+        android:checked="false"/>
+
+</menu>

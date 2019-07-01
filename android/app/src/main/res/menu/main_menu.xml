@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item android:id="@+id/item_setIp"-->
+        <!--android:icon="@drawable/ic_ip_icon"-->
+        <!--android:title="Set Server IP"-->
+        <!--app:showAsAction="ifRoom"/>-->
+
+    <!--<item android:id="@+id/item_openCamera"-->
+        <!--android:icon="@drawable/ic_linked_camera_icon"-->
+        <!--android:title="Open Camera"-->
+        <!--app:showAsAction="ifRoom"/>-->
+
+    <!--<item android:id="@+id/item_deleteTraining"-->
+        <!--android:icon="@drawable/ic_delete_icon"-->
+        <!--android:title="Delete Training Data"-->
+        <!--app:showAsAction="ifRoom"/>-->
+
+
+</menu>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/buttonRecEq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/left_rounded_bg"
+            android:text="RECORD WITH EQUIPMENT"
+            android:textAppearance="@style/SmallText"/>
+
+        <Button
+            android:id="@+id/buttonRecNoEq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/right_rounded_bg"
+            android:text="RECORD WITHOUT EQUIPMENT"
+            android:textAppearance="@style/SmallText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/txtReq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/gradient_dark_left"
+            android:text="0 Frames"
+            android:textAlignment="center"
+            android:textAppearance="@style/SmallText" />
+
+        <TextView
+            android:id="@+id/txtRne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/gradient_dark"
+            android:text="0 Frames"
+            android:textAlignment="center"
+            android:textAppearance="@style/SmallText" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.75"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/buttonTrain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@drawable/ripple"
+            android:text="TRAIN"
+            android:textAppearance="@style/MediumText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4" />
+
+    <TextView
+        android:id="@+id/txtResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Ready"
+        android:textAlignment="center"
+        android:textAppearance="@style/LargeDarkText"
+        android:textStyle="bold" />
+
+</LinearLayout>
